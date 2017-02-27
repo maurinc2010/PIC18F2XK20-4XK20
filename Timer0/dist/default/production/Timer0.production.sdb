@@ -1,0 +1,260 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F46K20 ]
+[d frameptr 4065 ]
+"62 /opt/microchip/xc8/v1.35/sources/common/float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 /opt/microchip/xc8/v1.35/sources/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 /opt/microchip/xc8/v1.35/sources/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 /opt/microchip/xc8/v1.35/sources/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 /opt/microchip/xc8/v1.35/sources/common/ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 /opt/microchip/xc8/v1.35/sources/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 /opt/microchip/xc8/v1.35/sources/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 /opt/microchip/xc8/v1.35/sources/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 /opt/microchip/xc8/v1.35/sources/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"4 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/Timer0/hw.c
+[v _set_leds set_leds `(v  1 e 0 0 ]
+"14
+[v _port port `(v  1 e 0 0 ]
+"19 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/Timer0/main.c
+[v _rotar_derecha_0 rotar_derecha_0 `(v  1 e 0 0 ]
+"29
+[v _rotar_izquierda_0 rotar_izquierda_0 `(v  1 e 0 0 ]
+"40
+[v _rotar_derecha rotar_derecha `(v  1 e 0 0 ]
+"48
+[v _rotar_izquierda rotar_izquierda `(v  1 e 0 0 ]
+"55
+[v _rotar rotar `(v  1 e 0 0 ]
+"70
+[v _sel_ope sel_ope `(v  1 e 0 0 ]
+"90
+[v _main main `(i  1 e 2 0 ]
+"5 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/Timer0/timer.c
+[v _timer_0_conf timer_0_conf `(v  1 e 0 0 ]
+"12
+[v _timer_0_set timer_0_set `(v  1 e 0 0 ]
+"17
+[v _timer_0_star timer_0_star `(v  1 e 0 0 ]
+"21
+[v _flag_timer_0 flag_timer_0 `(i  1 e 2 0 ]
+"428 /opt/microchip/xc8/v1.35/include/pic18f46k20.h
+[v _ANSEL ANSEL `VEuc  1 e 1 @3966 ]
+[s S48 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"600
+[s S57 . 1 `uc 1 AN0 1 0 :1:0 
+`uc 1 AN1 1 0 :1:1 
+`uc 1 AN2 1 0 :1:2 
+`uc 1 AN3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 AN4 1 0 :1:5 
+]
+[s S64 . 1 `uc 1 C12IN0M 1 0 :1:0 
+`uc 1 C12IN1M 1 0 :1:1 
+`uc 1 C2INP 1 0 :1:2 
+`uc 1 C1INP 1 0 :1:3 
+`uc 1 C1OUT 1 0 :1:4 
+`uc 1 C2OUT 1 0 :1:5 
+]
+[s S71 . 1 `uc 1 C12IN0N 1 0 :1:0 
+`uc 1 C12IN1N 1 0 :1:1 
+`uc 1 VREFM 1 0 :1:2 
+`uc 1 VREFP 1 0 :1:3 
+`uc 1 T0CKI 1 0 :1:4 
+`uc 1 SS 1 0 :1:5 
+]
+[s S78 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_SS 1 0 :1:5 
+]
+[s S81 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 VREFN 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nSS 1 0 :1:5 
+]
+[s S86 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 CVREF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 LVDIN 1 0 :1:5 
+]
+[s S91 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 HLVDIN 1 0 :1:5 
+]
+[s S94 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RJPU 1 0 :1:7 
+]
+[s S97 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+]
+[u S99 . 1 `S48 1 . 1 0 `S57 1 . 1 0 `S64 1 . 1 0 `S71 1 . 1 0 `S78 1 . 1 0 `S81 1 . 1 0 `S86 1 . 1 0 `S91 1 . 1 0 `S94 1 . 1 0 `S97 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES99  1 e 1 @3968 ]
+"769
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"1166
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"1770
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"2034
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"2268
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"2489
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"2931
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+[s S191 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"6787
+[s S198 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+]
+[u S202 . 1 `S191 1 . 1 0 `S198 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES202  1 e 1 @4053 ]
+"6842
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"6848
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+[s S219 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"7305
+[s S228 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S237 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[s S246 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S255 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S259 . 1 `S219 1 . 1 0 `S228 1 . 1 0 `S237 1 . 1 0 `S246 1 . 1 0 `S255 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES259  1 e 1 @4082 ]
+"16 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/Timer0/main.c
+[v _a a `uc  1 e 1 0 ]
+[v _ope ope `uc  1 e 1 0 ]
+"17
+[v _d d `i  1 e 2 0 ]
+"90
+[v _main main `(i  1 e 2 0 ]
+{
+"112
+} 0
+"5 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/Timer0/timer.c
+[v _timer_0_conf timer_0_conf `(v  1 e 0 0 ]
+{
+"10
+} 0
+"4 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/Timer0/hw.c
+[v _set_leds set_leds `(v  1 e 0 0 ]
+{
+"12
+} 0
+"70 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/Timer0/main.c
+[v _sel_ope sel_ope `(v  1 e 0 0 ]
+{
+[v sel_ope@ope ope `i  1 p 2 1 ]
+"88
+} 0
+"29
+[v _rotar_izquierda_0 rotar_izquierda_0 `(v  1 e 0 0 ]
+{
+"37
+} 0
+"48
+[v _rotar_izquierda rotar_izquierda `(v  1 e 0 0 ]
+{
+"54
+} 0
+"19
+[v _rotar_derecha_0 rotar_derecha_0 `(v  1 e 0 0 ]
+{
+"27
+} 0
+"40
+[v _rotar_derecha rotar_derecha `(v  1 e 0 0 ]
+{
+"46
+} 0
+"55
+[v _rotar rotar `(v  1 e 0 0 ]
+{
+"68
+} 0
+"14 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/Timer0/hw.c
+[v _port port `(v  1 e 0 0 ]
+{
+[v port@c c `uc  1 a 1 wreg ]
+[v port@c c `uc  1 a 1 wreg ]
+[v port@c c `uc  1 a 1 0 ]
+"19
+} 0
+"21 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/Timer0/timer.c
+[v _flag_timer_0 flag_timer_0 `(i  1 e 2 0 ]
+{
+"32
+} 0
+"17
+[v _timer_0_star timer_0_star `(v  1 e 0 0 ]
+{
+"19
+} 0
+"12
+[v _timer_0_set timer_0_set `(v  1 e 0 0 ]
+{
+[v timer_0_set@low low `uc  1 a 1 wreg ]
+[v timer_0_set@low low `uc  1 a 1 wreg ]
+[v timer_0_set@high high `uc  1 p 1 0 ]
+[v timer_0_set@low low `uc  1 a 1 1 ]
+"15
+} 0

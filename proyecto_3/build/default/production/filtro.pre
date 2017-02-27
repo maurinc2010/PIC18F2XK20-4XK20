@@ -1,0 +1,149 @@
+
+# 1 "filtro.c"
+
+# 13 "/opt/microchip/xc8/v1.35/include/stdint.h"
+typedef signed char int8_t;
+
+# 20
+typedef signed int int16_t;
+
+# 28
+typedef signed short long int int24_t;
+
+# 36
+typedef signed long int int32_t;
+
+# 43
+typedef unsigned char uint8_t;
+
+# 49
+typedef unsigned int uint16_t;
+
+# 56
+typedef unsigned short long int uint24_t;
+
+# 63
+typedef unsigned long int uint32_t;
+
+# 71
+typedef signed char int_least8_t;
+
+# 78
+typedef signed int int_least16_t;
+
+# 90
+typedef signed short long int int_least24_t;
+
+# 98
+typedef signed long int int_least32_t;
+
+# 105
+typedef unsigned char uint_least8_t;
+
+# 111
+typedef unsigned int uint_least16_t;
+
+# 121
+typedef unsigned short long int uint_least24_t;
+
+# 128
+typedef unsigned long int uint_least32_t;
+
+# 137
+typedef signed char int_fast8_t;
+
+# 144
+typedef signed int int_fast16_t;
+
+# 156
+typedef signed short long int int_fast24_t;
+
+# 164
+typedef signed long int int_fast32_t;
+
+# 171
+typedef unsigned char uint_fast8_t;
+
+# 177
+typedef unsigned int uint_fast16_t;
+
+# 187
+typedef unsigned short long int uint_fast24_t;
+
+# 194
+typedef unsigned long int uint_fast32_t;
+
+# 200
+typedef int32_t intmax_t;
+
+
+
+
+typedef uint32_t uintmax_t;
+
+
+
+
+typedef int16_t intptr_t;
+
+
+
+
+typedef uint16_t uintptr_t;
+
+# 20 "type.h"
+typedef signed char s8;
+typedef signed int s16;
+typedef signed long s32;
+
+
+typedef unsigned char u8;
+typedef unsigned int u16;
+typedef unsigned long u32;
+
+# 34
+typedef unsigned char byte;
+typedef unsigned char BOOL;
+typedef unsigned char boolean;
+
+typedef unsigned int word;
+
+typedef unsigned long dword;
+
+# 46
+typedef unsigned char BYTE;
+typedef unsigned int WORD;
+typedef unsigned long DWORD;
+
+# 5 "SPI.h"
+void set_spi();
+unsigned char send_spi(unsigned char);
+void send_mcp(u16);
+
+# 5 "filtro.c"
+u16 u[100];
+float y[100];
+int k=0;
+float a[4]={1.,-2.87435689,2.7564832,-0.88189313};
+float b[4]={2.91464945e-05,8.74394834e-05,8.74394834e-05,2.91464945e-05};
+
+u16 filtro(u16 inn){
+
+u[k+3]=inn;
+y[k+3]=(b[0]*u[k+3])+(b[1]*u[k+2])+(b[2]*u[k+1])+(b[3]*u[k]);
+y[k+3]=y[k+3]-(a[1]*y[k+2])-(a[2]*y[k+1])-(a[3]*y[k]);
+k=k+1;
+if (k+3==100){
+
+u[2]=u[k+2];
+u[1]=u[k+1];
+u[0]=u[k+0];
+
+y[2]=y[k+2];
+y[1]=y[k+1];
+y[0]=y[k+0];
+k=0;
+}
+
+return y[k+3];
+}

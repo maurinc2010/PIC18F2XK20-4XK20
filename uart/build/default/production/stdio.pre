@@ -1,0 +1,11 @@
+
+# 1 "stdio.c"
+
+# 7 "/opt/microchip/xc8/v1.35/include/stdarg.h"
+typedef void * va_list[1];
+
+#pragma intrinsic(__va_start)
+extern void * __va_start(void);
+
+#pragma intrinsic(__va_arg)
+extern void * __va_arg(void *, ...);

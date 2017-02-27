@@ -1,0 +1,641 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F46K20 ]
+[d frameptr 4065 ]
+"62 /opt/microchip/xc8/v1.35/sources/common/float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 /opt/microchip/xc8/v1.35/sources/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 /opt/microchip/xc8/v1.35/sources/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 /opt/microchip/xc8/v1.35/sources/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 /opt/microchip/xc8/v1.35/sources/common/ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"8 /opt/microchip/xc8/v1.35/sources/common/lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"8 /opt/microchip/xc8/v1.35/sources/common/lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 /opt/microchip/xc8/v1.35/sources/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 /opt/microchip/xc8/v1.35/sources/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 /opt/microchip/xc8/v1.35/sources/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 /opt/microchip/xc8/v1.35/sources/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"12 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/proyecto_2/adc.c
+[v _conf_adc conf_adc `(v  1 e 0 0 ]
+"23
+[v _set_adc set_adc `(v  1 e 0 0 ]
+"27
+[v _star_convercion star_convercion `(v  1 e 0 0 ]
+"31
+[v _final_convercion final_convercion `(uc  1 e 1 0 ]
+"46
+[v _dato_16 dato_16 `(i  1 e 2 0 ]
+"4 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/proyecto_2/hw.c
+[v _set_leds set_leds `(v  1 e 0 0 ]
+"14
+[v _port port `(v  1 e 0 0 ]
+"3 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/proyecto_2/m_uart.c
+[v _config_tx_aurt config_tx_aurt `(v  1 e 0 0 ]
+"20
+[v _activacion_tx activacion_tx `(v  1 e 0 0 ]
+"24
+[v _activacion_rx activacion_rx `(v  1 e 0 0 ]
+"35
+[v _trans_dato trans_dato `(v  1 e 0 0 ]
+"45
+[v _read_d read_d `(i  1 e 2 0 ]
+"45 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/proyecto_2/main.c
+[v _rotar_derecha rotar_derecha `(i  1 e 2 0 ]
+"61
+[v _rotar_izquierda rotar_izquierda `(i  1 e 2 0 ]
+"78
+[v _vasculante vasculante `(v  1 e 0 0 ]
+"91
+[v _shit_raid shit_raid `(v  1 e 0 0 ]
+"118
+[v _pulsador_s2 pulsador_s2 `(uc  1 e 1 0 ]
+"139
+[v _set_secuencia set_secuencia `(v  1 e 0 0 ]
+"160
+[v _set_periodo set_periodo `(v  1 e 0 0 ]
+"173
+[v _set_comandos set_comandos `(uc  1 e 1 0 ]
+"207
+[v _set_ph set_ph `(v  1 e 0 0 ]
+"221
+[v _main main `(i  1 e 2 0 ]
+"299
+[v _transmitir transmitir `(v  1 e 0 0 ]
+"5 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/proyecto_2/timer.c
+[v _timer_0_conf timer_0_conf `(v  1 e 0 0 ]
+"12
+[v _timer_0_set timer_0_set `(v  1 e 0 0 ]
+"17
+[v _timer_0_star timer_0_star `(v  1 e 0 0 ]
+"21
+[v _flag_timer_0 flag_timer_0 `(i  1 e 2 0 ]
+"428 /opt/microchip/xc8/v1.35/include/pic18f46k20.h
+[v _ANSEL ANSEL `VEuc  1 e 1 @3966 ]
+[s S471 . 1 `uc 1 ANS0 1 0 :1:0 
+`uc 1 ANS1 1 0 :1:1 
+`uc 1 ANS2 1 0 :1:2 
+`uc 1 ANS3 1 0 :1:3 
+`uc 1 ANS4 1 0 :1:4 
+`uc 1 ANS5 1 0 :1:5 
+`uc 1 ANS6 1 0 :1:6 
+`uc 1 ANS7 1 0 :1:7 
+]
+"445
+[u S480 . 1 `S471 1 . 1 0 ]
+[v _ANSELbits ANSELbits `VES480  1 e 1 @3966 ]
+[s S30 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"600
+[s S39 . 1 `uc 1 AN0 1 0 :1:0 
+`uc 1 AN1 1 0 :1:1 
+`uc 1 AN2 1 0 :1:2 
+`uc 1 AN3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 AN4 1 0 :1:5 
+]
+[s S46 . 1 `uc 1 C12IN0M 1 0 :1:0 
+`uc 1 C12IN1M 1 0 :1:1 
+`uc 1 C2INP 1 0 :1:2 
+`uc 1 C1INP 1 0 :1:3 
+`uc 1 C1OUT 1 0 :1:4 
+`uc 1 C2OUT 1 0 :1:5 
+]
+[s S53 . 1 `uc 1 C12IN0N 1 0 :1:0 
+`uc 1 C12IN1N 1 0 :1:1 
+`uc 1 VREFM 1 0 :1:2 
+`uc 1 VREFP 1 0 :1:3 
+`uc 1 T0CKI 1 0 :1:4 
+`uc 1 SS 1 0 :1:5 
+]
+[s S60 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_SS 1 0 :1:5 
+]
+[s S63 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 VREFN 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nSS 1 0 :1:5 
+]
+[s S68 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 CVREF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 LVDIN 1 0 :1:5 
+]
+[s S73 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 HLVDIN 1 0 :1:5 
+]
+[s S76 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RJPU 1 0 :1:7 
+]
+[s S79 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+]
+[u S81 . 1 `S30 1 . 1 0 `S39 1 . 1 0 `S46 1 . 1 0 `S53 1 . 1 0 `S60 1 . 1 0 `S63 1 . 1 0 `S68 1 . 1 0 `S73 1 . 1 0 `S76 1 . 1 0 `S79 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES81  1 e 1 @3968 ]
+"769
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"1166
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"1770
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"2034
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"2268
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+[s S431 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"2300
+[u S449 . 1 `S431 1 . 1 0 `S30 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES449  1 e 1 @3986 ]
+"2489
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+[s S798 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"2742
+[s S807 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S816 . 1 `S798 1 . 1 0 `S807 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES816  1 e 1 @3988 ]
+"2931
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+[s S589 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"3476
+[s S598 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[s S601 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+]
+[u S604 . 1 `S589 1 . 1 0 `S598 1 . 1 0 `S601 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES604  1 e 1 @3998 ]
+[s S838 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"4050
+[s S847 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S850 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[s S853 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S856 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S859 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[u S861 . 1 `S838 1 . 1 0 `S847 1 . 1 0 `S850 1 . 1 0 `S853 1 . 1 0 `S856 1 . 1 0 `S859 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES861  1 e 1 @4011 ]
+[s S669 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"4278
+[s S678 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 BRGH1 1 0 :1:2 
+]
+[s S681 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S684 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SENDB1 1 0 :1:3 
+]
+[s S687 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SYNC1 1 0 :1:4 
+]
+[s S690 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+]
+[s S693 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX91 1 0 :1:6 
+]
+[s S696 . 1 `uc 1 TX9D1 1 0 :1:0 
+]
+[s S698 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 TXEN1 1 0 :1:5 
+]
+[s S701 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S704 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[u S706 . 1 `S669 1 . 1 0 `S678 1 . 1 0 `S681 1 . 1 0 `S684 1 . 1 0 `S687 1 . 1 0 `S690 1 . 1 0 `S693 1 . 1 0 `S696 1 . 1 0 `S698 1 . 1 0 `S701 1 . 1 0 `S704 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES706  1 e 1 @4012 ]
+"4515
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"4526
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"4537
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"4548
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
+[s S756 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 CKTXP 1 0 :1:4 
+`uc 1 DTRXP 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"4973
+[s S765 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP 1 0 :1:4 
+]
+[s S768 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RXCKP 1 0 :1:5 
+]
+[s S771 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 W4E 1 0 :1:1 
+]
+[u S774 . 1 `S756 1 . 1 0 `S765 1 . 1 0 `S768 1 . 1 0 `S771 1 . 1 0 ]
+[v _BAUDCONbits BAUDCONbits `VES774  1 e 1 @4024 ]
+[s S492 . 1 `uc 1 ADCS 1 0 :3:0 
+`uc 1 ACQT 1 0 :3:3 
+`uc 1 . 1 0 :1:6 
+`uc 1 ADFM 1 0 :1:7 
+]
+"5348
+[s S497 . 1 `uc 1 ADCS0 1 0 :1:0 
+`uc 1 ADCS1 1 0 :1:1 
+`uc 1 ADCS2 1 0 :1:2 
+`uc 1 ACQT0 1 0 :1:3 
+`uc 1 ACQT1 1 0 :1:4 
+`uc 1 ACQT2 1 0 :1:5 
+]
+[u S504 . 1 `S492 1 . 1 0 `S497 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES504  1 e 1 @4032 ]
+"5397
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+[s S521 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"5494
+[s S524 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S528 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S535 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S538 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S541 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[s S544 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S547 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S550 . 1 `S521 1 . 1 0 `S524 1 . 1 0 `S528 1 . 1 0 `S535 1 . 1 0 `S538 1 . 1 0 `S541 1 . 1 0 `S544 1 . 1 0 `S547 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES550  1 e 1 @4034 ]
+"5574
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"5580
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+[s S285 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"6787
+[s S292 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+]
+[u S296 . 1 `S285 1 . 1 0 `S292 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES296  1 e 1 @4053 ]
+"6842
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"6848
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+[s S313 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"7305
+[s S322 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S331 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[s S340 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S349 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S353 . 1 `S313 1 . 1 0 `S322 1 . 1 0 `S331 1 . 1 0 `S340 1 . 1 0 `S349 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES353  1 e 1 @4082 ]
+"18 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/proyecto_2/main.c
+[v _a a `uc  1 e 1 0 ]
+[v _s1 s1 `uc  1 e 1 0 ]
+[v _s2 s2 `uc  1 e 1 0 ]
+[v _jj jj `uc  1 e 1 0 ]
+"19
+[v _d d `uc  1 e 1 0 ]
+[v _ss ss `uc  1 e 1 0 ]
+[v _sec sec `uc  1 e 1 0 ]
+"20
+[v _x x `uc  1 e 1 0 ]
+[v _periodo periodo `uc  1 e 1 0 ]
+[s S21 conversion 12 `ui 1 dato 2 0 `[5]uc 1 digitos 5 2 `[5]uc 1 digitos2 5 7 ]
+"31
+[v _conversion16 conversion16 `S21  1 e 12 0 ]
+"32
+[v _msm1 msm1 `[21]uc  1 e 21 0 ]
+"33
+[v _msm2 msm2 `[32]uc  1 e 32 0 ]
+"34
+[v _msm3 msm3 `[34]uc  1 e 34 0 ]
+"35
+[v _msm4 msm4 `[29]uc  1 e 29 0 ]
+"36
+[v _msm5 msm5 `[31]uc  1 e 31 0 ]
+"37
+[v _msm6 msm6 `[27]uc  1 e 27 0 ]
+"38
+[v _msm7 msm7 `[28]uc  1 e 28 0 ]
+"41
+[v _est est `ui  1 e 2 0 ]
+[v _i i `ui  1 e 2 0 ]
+"221
+[v _main main `(i  1 e 2 0 ]
+{
+"224
+[v main@flag_read flag_read `uc  1 a 1 16 ]
+"223
+[v main@time_comando time_comando `uc  1 a 1 15 ]
+[v main@time_led time_led `uc  1 a 1 14 ]
+[v main@time_adc time_adc `uc  1 a 1 13 ]
+"224
+[v main@flag_5s flag_5s `uc  1 a 1 12 ]
+"223
+[v main@time_star time_star `uc  1 a 1 11 ]
+"273
+} 0
+"299
+[v _transmitir transmitir `(v  1 e 0 0 ]
+{
+"369
+} 0
+"35 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/proyecto_2/m_uart.c
+[v _trans_dato trans_dato `(v  1 e 0 0 ]
+{
+[v trans_dato@x x `uc  1 a 1 wreg ]
+[v trans_dato@x x `uc  1 a 1 wreg ]
+[v trans_dato@x x `uc  1 a 1 0 ]
+"38
+} 0
+"27 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/proyecto_2/adc.c
+[v _star_convercion star_convercion `(v  1 e 0 0 ]
+{
+"29
+} 0
+"139 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/proyecto_2/main.c
+[v _set_secuencia set_secuencia `(v  1 e 0 0 ]
+{
+"158
+} 0
+"78
+[v _vasculante vasculante `(v  1 e 0 0 ]
+{
+[v vasculante@x x `uc  1 a 1 wreg ]
+[v vasculante@x x `uc  1 a 1 wreg ]
+[v vasculante@x x `uc  1 a 1 4 ]
+"89
+} 0
+"61
+[v _rotar_izquierda rotar_izquierda `(i  1 e 2 0 ]
+{
+[v rotar_izquierda@x x `uc  1 a 1 wreg ]
+[v rotar_izquierda@x x `uc  1 a 1 wreg ]
+[v rotar_izquierda@x x `uc  1 a 1 3 ]
+"75
+} 0
+"45
+[v _rotar_derecha rotar_derecha `(i  1 e 2 0 ]
+{
+[v rotar_derecha@x x `uc  1 a 1 wreg ]
+[v rotar_derecha@x x `uc  1 a 1 wreg ]
+[v rotar_derecha@x x `uc  1 a 1 3 ]
+"59
+} 0
+"91
+[v _shit_raid shit_raid `(v  1 e 0 0 ]
+{
+"92
+[v shit_raid@g g `uc  1 a 1 1 ]
+"116
+} 0
+"14 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/proyecto_2/hw.c
+[v _port port `(v  1 e 0 0 ]
+{
+[v port@c c `uc  1 a 1 wreg ]
+[v port@c c `uc  1 a 1 wreg ]
+[v port@c c `uc  1 a 1 0 ]
+"19
+} 0
+"207 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/proyecto_2/main.c
+[v _set_ph set_ph `(v  1 e 0 0 ]
+{
+"219
+} 0
+"5 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/proyecto_2/timer.c
+[v _timer_0_conf timer_0_conf `(v  1 e 0 0 ]
+{
+"10
+} 0
+"4 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/proyecto_2/hw.c
+[v _set_leds set_leds `(v  1 e 0 0 ]
+{
+"12
+} 0
+"23 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/proyecto_2/adc.c
+[v _set_adc set_adc `(v  1 e 0 0 ]
+{
+[v set_adc@x x `uc  1 a 1 wreg ]
+[v set_adc@x x `uc  1 a 1 wreg ]
+[v set_adc@x x `uc  1 a 1 0 ]
+"25
+} 0
+"3 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/proyecto_2/m_uart.c
+[v _config_tx_aurt config_tx_aurt `(v  1 e 0 0 ]
+{
+"18
+} 0
+"12 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/proyecto_2/adc.c
+[v _conf_adc conf_adc `(v  1 e 0 0 ]
+{
+"21
+} 0
+"20 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/proyecto_2/m_uart.c
+[v _activacion_tx activacion_tx `(v  1 e 0 0 ]
+{
+[v activacion_tx@x x `uc  1 a 1 wreg ]
+[v activacion_tx@x x `uc  1 a 1 wreg ]
+[v activacion_tx@x x `uc  1 a 1 0 ]
+"22
+} 0
+"24
+[v _activacion_rx activacion_rx `(v  1 e 0 0 ]
+{
+[v activacion_rx@x x `uc  1 a 1 wreg ]
+[v activacion_rx@x x `uc  1 a 1 wreg ]
+[v activacion_rx@x x `uc  1 a 1 0 ]
+"26
+} 0
+"160 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/proyecto_2/main.c
+[v _set_periodo set_periodo `(v  1 e 0 0 ]
+{
+[v set_periodo@x x `i  1 p 2 4 ]
+"171
+} 0
+"173
+[v _set_comandos set_comandos `(uc  1 e 1 0 ]
+{
+[v set_comandos@c c `uc  1 a 1 wreg ]
+[v set_comandos@d d `uc  1 a 1 1 ]
+[v set_comandos@c c `uc  1 a 1 wreg ]
+[v set_comandos@c c `uc  1 a 1 0 ]
+"205
+} 0
+"45 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/proyecto_2/m_uart.c
+[v _read_d read_d `(i  1 e 2 0 ]
+{
+"50
+} 0
+"118 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/proyecto_2/main.c
+[v _pulsador_s2 pulsador_s2 `(uc  1 e 1 0 ]
+{
+"119
+[v pulsador_s2@n n `uc  1 a 1 0 ]
+"137
+} 0
+"21 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/proyecto_2/timer.c
+[v _flag_timer_0 flag_timer_0 `(i  1 e 2 0 ]
+{
+"32
+} 0
+"17
+[v _timer_0_star timer_0_star `(v  1 e 0 0 ]
+{
+"19
+} 0
+"12
+[v _timer_0_set timer_0_set `(v  1 e 0 0 ]
+{
+[v timer_0_set@low low `uc  1 a 1 wreg ]
+[v timer_0_set@low low `uc  1 a 1 wreg ]
+[v timer_0_set@high high `uc  1 p 1 0 ]
+[v timer_0_set@low low `uc  1 a 1 1 ]
+"15
+} 0
+"31 /media/game/c1570faf-5fe1-4385-acf3-e76653d0f11e/mauricio/IDEAS/maestria/semestre 2/dsp avanado/explorer8/clase2/proyecto_2/adc.c
+[v _final_convercion final_convercion `(uc  1 e 1 0 ]
+{
+"39
+} 0
+"46
+[v _dato_16 dato_16 `(i  1 e 2 0 ]
+{
+"47
+[v dato_16@y y `ui  1 a 2 2 ]
+"53
+} 0
